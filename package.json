@@ -1,0 +1,61 @@
+{
+  "name": "ideas-claras",
+  "version": "1.0.0",
+  "description": "Proyecto de Aprendizaje Angular - Gestión de Ideas",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "e2e": "ng e2e",
+    "lint": "ng lint",
+    "serve:pwa": "ng build --prod && npx http-server dist/ideas-claras -p 4200",
+    "analyze": "ng build --stats-json && npx webpack-bundle-analyzer dist/ideas-claras/stats.json"
+  },
+  "dependencies": {
+    "@angular/animations": "^17.0.0",
+    "@angular/common": "^17.0.0",
+    "@angular/compiler": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "@angular/forms": "^17.0.0",
+    "@angular/platform-browser": "^17.0.0",
+    "@angular/platform-browser-dynamic": "^17.0.0",
+    "@angular/router": "^17.0.0",
+    "@angular/service-worker": "^17.0.0",
+    "@ngrx/store": "^17.0.0",
+    "@ngrx/effects": "^17.0.0",
+    "@ngrx/store-devtools": "^17.0.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.0",
+    "uuid": "^9.0.0",
+    "file-saver": "^2.0.5"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^17.0.0",
+    "@angular/cli": "^17.0.0",
+    "@angular/compiler-cli": "^17.0.0",
+    "@types/jasmine": "~5.1.0",
+    "@types/node": "^18.7.0",
+    "@types/uuid": "^9.0.0",
+    "@types/file-saver": "^2.0.5",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-headless": "~3.1.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.2.0",
+    "webpack-bundle-analyzer": "^4.9.0"
+  },
+  "keywords": [
+    "angular",
+    "typescript",
+    "ideas",
+    "learning",
+    "pwa"
+  ],
+  "author": "Ideas Claras Team",
+  "license": "MIT"
+}
